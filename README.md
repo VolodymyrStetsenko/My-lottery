@@ -96,25 +96,31 @@ To set up and interact with this project, follow the instructions below. This gu
 Before you begin, ensure you have the following installed:
 
 *   **Git:** For cloning the repository.
+
     ```bash
 git --version
     ```
     (Expected output: `git version x.x.x`)
+
 *   **Foundry:** The smart contract development toolkit.
+
     ```bash
 forge --version
     ```
     (Expected output: `forge 0.2.0 (816e00b 2023-03-16T00:05:26.396218Z)` or similar)
+
 *   **(Optional) `make` and `jq`:** For simplified command execution and JSON parsing.
 
 ### Quickstart
 
 1.  **Clone the repository:**
+
     ```bash
 git clone https://github.com/VolodymyrStetsenko/My-lottery
 cd My-lottery
     ```
 2.  **Install dependencies and build the project:**
+
     ```bash
 make # This command typically runs 'clean', 'install deps', and 'build'
     ```
@@ -142,10 +148,13 @@ This section details how to deploy, interact with, and test the lottery smart co
 For local development and testing, you can use Anvil, Foundry's local blockchain node.
 
 1.  **Start Anvil in a separate terminal:**
+
     ```bash
 make anvil
     ```
+
 2.  **Deploy the contract to your local Anvil instance:**
+
     ```bash
 make deploy
     ```
@@ -198,14 +207,17 @@ For a user-friendly interaction experience, you can use the Etherscan interface:
 This project includes a comprehensive suite of tests to ensure the smart contract functions as expected. Foundry's `forge` is used for testing and coverage analysis.
 
 *   **Run all tests:**
+
     ```bash
 forge test
     ```
 *   **Run tests with forking (against Sepolia):**
+
     ```bash
 forge test --fork-url $SEPOLIA_RPC_URL
     ```
 *   **Generate test coverage report:**
+
     ```bash
 forge coverage
     ```
