@@ -27,19 +27,26 @@ A decentralized lottery where:
 ## ✅ Deployment Proof (Sepolia)
 
 * **Repo:** [https://github.com/VolodymyrStetsenko/My-lottery](https://github.com/VolodymyrStetsenko/My-lottery)
+
 * **Contract (Verified):**
   `0xEdCE48190EE9e2085325977216beA55F7259FB4f`
+
   [https://sepolia.etherscan.io/address/0xedce48190ee9e2085325977216bea55f7259fb4f#code](https://sepolia.etherscan.io/address/0xedce48190ee9e2085325977216bea55f7259fb4f#code)
+
 * **Creator / Owner:** `0xF6d3a3104b75b0BD2498856C1283e7120c315AeC`
+
 * **Deploy Tx:**
   `0x2cfa9378a5e695cfbad5c1ce46d6a2d3ef22a8d0f767879d0f947a4a033bd38b`
+
 * **Key Interaction Txs:**
   Enter: `0x5f75e0fbccf7c923fdfce5b90011ae51879e04967122485cd60d28ee8a1e9c82`
   Upkeep/VRF req: `0x42bf911c8903436d8c8ebb97148a15a0e4941f4d9e6c92a99ea7b622b210af3b`
+
   Extra (testing):
   `0x6fe6bc6a924715a7e90dae5077c79af4207704a6bae11dd19e25e8b48e659821`,
   `0x3284df6e0037cd9577d05b9d9045c71277b258e2ee8a38741c86ccdf884b0f32`,
   `0x15c5ba535c734309345ca8635c7c0a0e286f84c65e9747f395b266d2eb48186b`
+
 * **VRF v2.5 Subscription ID:**
   `78327710354172325838971551030363537269547257432403460611339758998294481710333`
 
