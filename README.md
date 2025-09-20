@@ -97,16 +97,16 @@ Before you begin, ensure you have the following installed:
 
 *   **Git:** For cloning the repository.
 
-    ```bash
+```bash
 git --version
-    ```
+```
     (Expected output: `git version x.x.x`)
 
 *   **Foundry:** The smart contract development toolkit.
 
-    ```bash
+```bash
 forge --version
-    ```
+```
     (Expected output: `forge 0.2.0 (816e00b 2023-03-16T00:05:26.396218Z)` or similar)
 
 *   **(Optional) `make` and `jq`:** For simplified command execution and JSON parsing.
@@ -115,15 +115,15 @@ forge --version
 
 1.  **Clone the repository:**
 
-    ```bash
+```bash
 git clone https://github.com/VolodymyrStetsenko/My-lottery
 cd My-lottery
-    ```
+```
 2.  **Install dependencies and build the project:**
 
-    ```bash
+```bash
 make # This command typically runs 'clean', 'install deps', and 'build'
-    ```
+```
 
 ### Environment Variables
 
@@ -149,15 +149,15 @@ For local development and testing, you can use Anvil, Foundry's local blockchain
 
 1.  **Start Anvil in a separate terminal:**
 
-    ```bash
+```bash
 make anvil
-    ```
+```
 
 2.  **Deploy the contract to your local Anvil instance:**
 
-    ```bash
+```bash
 make deploy
-    ```
+```
 
 ### Deployment to Sepolia Testnet
 
@@ -208,19 +208,19 @@ This project includes a comprehensive suite of tests to ensure the smart contrac
 
 *   **Run all tests:**
 
-    ```bash
+```bash
 forge test
-    ```
+```
 *   **Run tests with forking (against Sepolia):**
 
-    ```bash
+```bash
 forge test --fork-url $SEPOLIA_RPC_URL
-    ```
+```
 *   **Generate test coverage report:**
 
-    ```bash
+```bash
 forge coverage
-    ```
+```
 
 Gas-focused micro tests are located in `test/gas/RaffleGasTest.t.sol`. These tests are designed to be unit-safe and do not require VRF permissions.
 
