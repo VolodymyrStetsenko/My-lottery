@@ -39,8 +39,11 @@ A decentralized lottery where:
   `0x2cfa9378a5e695cfbad5c1ce46d6a2d3ef22a8d0f767879d0f947a4a033bd38b`
 
 * **Key Interaction Txs:**
-  Enter: `0x5f75e0fbccf7c923fdfce5b90011ae51879e04967122485cd60d28ee8a1e9c82`
-  Upkeep/VRF req: `0x42bf911c8903436d8c8ebb97148a15a0e4941f4d9e6c92a99ea7b622b210af3b`
+  Enter: 
+  `0x5f75e0fbccf7c923fdfce5b90011ae51879e04967122485cd60d28ee8a1e9c82`
+
+  Upkeep/VRF req: 
+  `0x42bf911c8903436d8c8ebb97148a15a0e4941f4d9e6c92a99ea7b622b210af3b`
 
   Extra (testing):
   `0x6fe6bc6a924715a7e90dae5077c79af4207704a6bae11dd19e25e8b48e659821`,
